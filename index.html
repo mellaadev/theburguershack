@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Burguer Shack | by Fran Mella</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Molle:ital@1&family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet's -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/build/css/app.min.css">
+
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header__video">
+            <video autoplay="" loop="" muted="" class="header__video-vid">
+                <source src="/build/video/video_intro.mp4" type="video/mp4">
+            </video>
+            <div class="header__video-mask"></div>
+        </div>
+        <div class="barra">
+            <div class="contenedor barra__grid">
+                <div class="barra__logo">
+                    <a href="/index.html">
+                        <img src="/build/img/logo.png" alt="The Burguer Shack" class="barra__logo-imagen">
+                    </a>
+                </div>
+                <div class="barra__menu">menú</div>
+                <nav class="navegacion no-mostrar">
+                    <a href="#" class="navegacion__enlace navegacion__enlace--active">Inicio</a>
+                    <a href="#" class="navegacion__enlace">Nosotros</a>
+                    <a href="#" class="navegacion__enlace">Carta</a>
+                    <a href="#" class="navegacion__enlace">Coffee</a>
+                    <a href="#" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__contenido">
+            <h1 class="header__titulo">Desde 1980</h1>
+            <div class="header__opciones">
+                <p class="header__enlace">A Domicilio</p>
+                <p class="header__enlace">Recoger</p>
+            </div>
+            <div class="header__scroll"><i class='bx bx-down-arrow-alt'></i></div>
+        </div>
+    </header>
+
+    <main class="seccion opciones">
+        <div class="opciones__contenido contenedor">
+            <div class="opcion">
+                <div class="opcion__imagen">
+                    <img src="/build/img/burguer5.webp" alt="Imagen Opcion" class="opcion__image">
+                </div>
+                <div class="opcion__contenido">
+                    <h3 class="opcion__heading">Haz tu reserva</h3>
+                    <p class="opcion__texto">Disfruta de la experiencia unica. Reserva tu mesa <span class="opcion__texto--saltolinea">de forma fácil y rápida en tu restaurante favorito.</span></p>
+                    <a href="#" class="opcion__boton">Reservar</a>
+                </div>
+            </div> <!-- .opcion -->
+
+            <div class="opcion">
+                <div class="opcion__imagen">
+                    <img src="/build/img/burguer6.webp" alt="Imagen Opcion" class="opcion__image">
+                </div>
+                <div class="opcion__contenido">
+                    <h3 class="opcion__heading">Novedades</h3>
+                    <p class="opcion__texto">No te pierdas nada, entérate de las mejores<span class="opcion__texto--saltolínea">promociones, planes y eventos. Descubre todo lo que</span> tenemos preparado, siempre has novedades.</p>
+                    <a href="#" class="opcion__boton">Saber más</a>
+                </div>
+            </div> <!-- .opcion -->
+
+            <div class="opcion">
+                <div class="opcion__imagen">
+                    <img src="/build/img/burguer7.webp" alt="Imagen Opcion" class="opcion__image">
+                </div>
+                <div class="opcion__contenido">
+                    <h3 class="opcion__heading">Restaurantes</h3>
+                    <p class="opcion__texto">¿Sabes cuál es tu The Burguer Shack más cercano?<span class="opcion__texto--saltolínea"> Consulta todos nuestros Restaurantes ¡Te esperamos!</span></p>
+                    <a href="#" class="opcion__boton">Visita</a>
+                </div>
+            </div> <!-- .opcion -->
+        </div>
+    </main>
+
+    <section class="carta seccion">
+        <div class="carta__mask"></div>
+        <div class="carta__contenido contenedor">
+            <h2 class="carta__heading">Carta</h2>
+            <p class="carta__texto">Lo más de lo más, ¿te resistirás?</p>
+            <a href="#" class="carta__boton">Ver más</a>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <a href="/index.html" class="footer__enlace">
+            <img src="/build/img/logo.png" alt="The Burguer Shack" class="footer__logo">
+        </a>
+        <div class="footer__contenido">
+            <p class="footer__texto">Te esperamos con el auténtico <span class="footer__texto-fntsz">sabor</span></p>
+            <div class="footer__socialmedia">
+                <div class="socialmedia">
+                    <a href="#" class="socialmedia__enlace">
+                        <img src="/build/img/twitter_icon.svg" alt="Twitter">
+                    </a>
+                </div>
+                <div class="socialmedia">
+                    <a href="#" class="socialmedia__enlace">
+                        <img src="/build/img/facebook_icon.svg" alt="Facebook">
+                    </a>
+                </div>
+                <div class="socialmedia">
+                    <a href="#" class="socialmedia__enlace">
+                        <img src="/build/img/instagram_icon.svg" alt="Instagram">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="/build/js/bundle.min.js"></script>
+</body>
+</html>
